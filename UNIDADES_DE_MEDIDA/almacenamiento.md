@@ -51,3 +51,26 @@ Como 56.88 es menor que la duración (9360) entonces la peli se ve perfectamente
 **¿Cuantas instrucciones se ejecutan en 1 segundo?**  
 **¿y en 2 minutos?**  
 
+(ejercicios de frecuencia osea Hz(Hercios) se multiplica por 1000 en vez de 1024)  
+1Hz = 1 ciclo/segundo  
+10GHz = 10 * 1000 * 1000 * 1000 = 10000000000Hz    
+1 instrucción cada 5 ciclos de reloj  
+10000000000Hz/5Hz por instrucción = 2000000000 instrucciones / segundo  
+¿y en 2 minutos?
+2000000000 instrucciones / segundo * 120 segundos = 240000000000 instrucciones en 2 minutos
+
+**Con el mismo procesador si fuera de CISC, con estos porcentajes de ejecución:**  
+**(15%) instrucciones cada 2 ciclos de reloj**  
+**(25%) instrucciones cada 3 ciclos de reloj**  
+**(60%) instrucciones cada 5 ciclos de reloj** 
+**Se pide, nº de instrucciones de media que se ejecutan en un segundo**  
+10000000000Hz/2Hz por instrucción = 5000000000 instrucciones / segundo  
+10000000000Hz/3Hz por instrucción = 3333333333,3 instrucciones / segundo  
+10000000000Hz/5Hz por instrucción = 2000000000 instrucciones / segundo  
+
+5000000000 instrucciones / segundo * 0.15 = 750000000 instrucciones / segundo  
+3333333333,3 instrucciones / segundo * 0.25 = 833333333,3 instrucciones / segundo  
+2000000000 instrucciones / segundo * 0.60 = 1200000000 instrucciones / segundo  
+Media de instrucciones al segundo = 750000000+833333333,3+1200000000 =  2783333333,3 instrucciones / segundo  
+
+
